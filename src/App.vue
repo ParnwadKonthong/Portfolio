@@ -26,9 +26,26 @@ import Contact from './views/Contact.vue'
   </div>
 </template>
 
-<style scoped>
+<style>
 .area {
-  min-height: 100vh;
   padding-top: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg, /* มุมเอียงจากบนซ้ายไปล่างขวา */
+    #ffd1dc,  /* pastel pink */
+    #ffe4b5,  /* pastel peach */
+    #fffac8,  /* pastel yellow */
+    #d5f4e6,  /* pastel mint */
+    #add8e6,  /* pastel blue */
+    #d0bdf4,  /* pastel purple */
+    #f3c6ff   /* pastel lavender */
+  );
+}
+
 </style>
