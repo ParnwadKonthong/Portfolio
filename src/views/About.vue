@@ -6,7 +6,7 @@ import SkillItem from '../components/SkillItem.vue';
   <div class="flex flex-col items-center justify-center mt-10">
     <div class="font-bold text-4xl mb-12">ABOUT ME</div>
 
-    <div class="flex flex-col items-center lg:flex-row lg:justify-between">
+    <div class="flex flex-col items-center lg:flex-row lg:justify-between w-full">
         <!-- Introduction -->
         <div class="mr-4">
             <div class="font-bold text-2xl mb-4">PARNWAD KONTHONG</div>
@@ -17,7 +17,7 @@ import SkillItem from '../components/SkillItem.vue';
         </div>
         <!-- Education -->
         <div>
-            <div class="w-[450px] p-6 border border-gray-300 rounded-xl shadow-md bg-white/72 text-center mb-4 lg:text-center">
+            <div class="w-auto p-6 border border-gray-300 rounded-xl shadow-md bg-white/72 text-center mb-4 lg:text-center lg:w-[450px]">
                 <div class="font-bold text-2xl mb-4">EDUCATION</div>
                 <div class="text-base">
                     <div>BANGKOK UNIVERSITY 2020 - 2024</div>

@@ -48,4 +48,44 @@ body {
   );
 }
 
+@media (max-width: 1440px) {
+  .area {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  body {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .area {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .area {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .area {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+
 </style>
