@@ -7,9 +7,9 @@ import SkillItem from '../components/SkillItem.vue';
         <div class="font-bold text-4xl mb-12">CONTACT ME</div>
 
         <div class="flex flex-wrap justify-center gap-4">
-            <SkillItem icon="../public/logo-mail.png" name="Parnwad.konthong@gmail.com" />
-            <SkillItem icon="../public/logo-github.png" name="ParnwadKonthong" />
-            <SkillItem icon="../public/logo-phone.png" name="097-072-6523" />
+            <SkillItem icon="../logo-mail.png" name="Parnwad.konthong@gmail.com" />
+            <SkillItem icon="../logo-github.png" name="ParnwadKonthong" />
+            <SkillItem icon="../logo-phone.png" name="097-072-6523" />
         </div>
         
     </div>
