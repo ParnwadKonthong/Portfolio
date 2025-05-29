@@ -32,7 +32,7 @@ import SkillItem from '../components/SkillItem.vue';
     <!-- Skill -->
     <div class="flex flex-wrap justify-center gap-4">
         <SkillItem icon="../logo-html.png" name="HTML" />
-        <SkillItem icon="../logo-CSS.png" name="CSS" />
+        <SkillItem icon="../logo-css.png" name="CSS" />
         <SkillItem icon="../logo-javascript.png" name="JavaScript" />
         <SkillItem icon="../logo-typescript.png" name="TypeScript" />
         <SkillItem icon="../logo-python.png" name="Python" />
