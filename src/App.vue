@@ -34,6 +34,7 @@ import Contact from './views/Contact.vue'
 }
 
 body {
+  font-family: 'Exo 2', serif;
   margin: 0;
   min-height: 100vh;
   background: linear-gradient(

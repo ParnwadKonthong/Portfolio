@@ -39,12 +39,12 @@ onMounted(() => {
 
 <template>
   <div
-    class="flex justify-between w-full p-8 fixed top-0 left-0 bg-white/99 z-50 shadow"
+    class="flex justify-between w-full p-4 fixed top-0 left-0 bg-white/99 z-50 shadow"
   >
     <div class="font-bold text-2xl">PORTFOLIO</div>
     <div class="flex space-x-12 ml-auto cursor-pointer text-lg">
       <button
-        class="md:hidden text-3xl mr-auto focus:outline-none"
+        class="md:hidden text-3xl mr-auto focus:outline-none cursor-pointer"
         @click="menuOpen = !menuOpen"
       >
         ☰
@@ -63,7 +63,7 @@ onMounted(() => {
 
       <div
         v-if="menuOpen"
-        class="absolute right-0 top-20 w-36 p-4 bg-white/99 shadow-lg rounded-xl z-50 flex flex-col space-y-4 lg:hidden"
+        class="absolute right-0 top-12 w-36 p-4 bg-white/99 shadow-lg rounded-xl z-50 flex flex-col space-y-4 lg:hidden"
       >
         <a
           v-for="id in sections"
