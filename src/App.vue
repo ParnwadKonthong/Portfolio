@@ -11,7 +11,7 @@ const isLoading = ref(true)
 
 onMounted(async () => {
   // จำลองโหลดข้อมูล เช่น fetch หรือโหลดภาพ
-  await new Promise(resolve => setTimeout(resolve, 2000)) // รอ 2 วินาที
+  await new Promise(resolve => setTimeout(resolve, 400)) // รอ 2 วินาที
 
   isLoading.value = false
 })

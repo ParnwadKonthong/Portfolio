@@ -31,22 +31,22 @@ import SkillItem from '../components/SkillItem.vue';
 
     <!-- Skill -->
     <div class="flex flex-wrap justify-center gap-4">
-        <SkillItem icon="../public/logo-skill/logo-html.png" name="HTML" />
-        <SkillItem icon="../public/logo-skill/logo-CSS.png" name="CSS" />
-        <SkillItem icon="../public/logo-skill/logo-javascript.png" name="JavaScript" />
-        <SkillItem icon="../public/logo-skill/logo-typescript.png" name="TypeScript" />
-        <SkillItem icon="../public/logo-skill/logo-python.png" name="Python" />
-        <SkillItem icon="../public/logo-skill/logo-tailwind.png" name="Tailwind" />
-        <SkillItem icon="../public/logo-skill/logo-bootstrap.png" name="bootstrap" />
-        <SkillItem icon="../public/logo-skill/logo-quasar.png" name="Quasar" />
-        <SkillItem icon="../public/logo-skill/logo-vuejs.png" name="Vue.js" />
-        <SkillItem icon="../public/logo-skill/logo-react.png" name="React" />
-        <SkillItem icon="../public/logo-skill/logo-nodejs.png" name="Node.js" />
-        <SkillItem icon="../public/logo-skill/logo-mongodb.png" name="MongoDB" />
-        <SkillItem icon="../public/logo-skill/logo-vscode.png" name="VS Code" />
-        <SkillItem icon="../public/logo-skill/logo-figma.png" name="Figma" />
-        <SkillItem icon="../public/logo-skill/logo-canva.png" name="Canva" />
-        <SkillItem icon="../public/logo-skill/logo-microsoftoffice.png" name="Microsoft office" />
+        <SkillItem icon="../logo-skill/logo-html.png" name="HTML" />
+        <SkillItem icon="../logo-skill/logo-CSS.png" name="CSS" />
+        <SkillItem icon="../logo-skill/logo-javascript.png" name="JavaScript" />
+        <SkillItem icon="../logo-skill/logo-typescript.png" name="TypeScript" />
+        <SkillItem icon="../logo-skill/logo-python.png" name="Python" />
+        <SkillItem icon="../logo-skill/logo-tailwind.png" name="Tailwind" />
+        <SkillItem icon="../logo-skill/logo-bootstrap.png" name="bootstrap" />
+        <SkillItem icon="../logo-skill/logo-quasar.png" name="Quasar" />
+        <SkillItem icon="../logo-skill/logo-vuejs.png" name="Vue.js" />
+        <SkillItem icon="../logo-skill/logo-react.png" name="React" />
+        <SkillItem icon="../logo-skill/logo-nodejs.png" name="Node.js" />
+        <SkillItem icon="../logo-skill/logo-mongodb.png" name="MongoDB" />
+        <SkillItem icon="../logo-skill/logo-vscode.png" name="VS Code" />
+        <SkillItem icon="../logo-skill/logo-figma.png" name="Figma" />
+        <SkillItem icon="../logo-skill/logo-canva.png" name="Canva" />
+        <SkillItem icon="../logo-skill/logo-microsoftoffice.png" name="Microsoft office" />
     </div>
   </div>
 </template>
