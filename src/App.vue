@@ -3,11 +3,28 @@ import Navbar from './components/Navbar.vue';
 import Home from './views/Home.vue';
 import About from './views/About.vue';
 import Projects from './views/Projects.vue';
-import Contact from './views/Contact.vue'
+import Contact from './views/Contact.vue';
+
+import { ref, onMounted } from 'vue'
+
+const isLoading = ref(true)
+
+onMounted(async () => {
+  // จำลองโหลดข้อมูล เช่น fetch หรือโหลดภาพ
+  await new Promise(resolve => setTimeout(resolve, 2000)) // รอ 2 วินาที
+
+  isLoading.value = false
+})
+
 </script>
 
 <template>
-  <Navbar/>
+  <div v-if="isLoading" class="flex items-center justify-center h-screen ">
+    <div class="w-12 h-12 border-4 border-zinc-400 border-t-transparent rounded-full animate-spin"></div>
+  </div>
+
+  <div v-else>
+    <Navbar/>
   
   <div id="home" class="area">
     <Home />
@@ -24,6 +41,8 @@ import Contact from './views/Contact.vue'
   <div id="contact" class="area">
     <Contact />
   </div>
+  </div>
+  
 </template>
 
 <style>
