@@ -35,18 +35,21 @@ import SkillItem from '../components/SkillItem.vue';
         <SkillItem icon="../logo-css.png" name="CSS" />
         <SkillItem icon="../logo-javascript.png" name="JavaScript" />
         <SkillItem icon="../logo-typescript.png" name="TypeScript" />
-        <SkillItem icon="../logo-python.png" name="Python" />
         <SkillItem icon="../logo-tailwind.png" name="Tailwind" />
         <SkillItem icon="../logo-bootstrap.png" name="bootstrap" />
-        <SkillItem icon="../logo-quasar.png" name="Quasar" />
         <SkillItem icon="../logo-vuejs.png" name="Vue.js" />
         <SkillItem icon="../logo-react.png" name="React" />
         <SkillItem icon="../logo-nodejs.png" name="Node.js" />
         <SkillItem icon="../logo-mongodb.png" name="MongoDB" />
         <SkillItem icon="../logo-vscode.png" name="VS Code" />
+        <SkillItem icon="../logo-github.png" name="VS Code" />
         <SkillItem icon="../logo-figma.png" name="Figma" />
         <SkillItem icon="../logo-canva.png" name="Canva" />
-        <SkillItem icon="../logo-microsoftoffice.png" name="Microsoft office" />
+        <SkillItem icon="../logo-postman.png" name="Postman" />
+        <SkillItem name="Manual Testing" />
+        <SkillItem name="Test Case" />
+        <SkillItem name="Bug Report" />
+        <SkillItem name="API/UI Testing" />
     </div>
   </div>
 </template>
