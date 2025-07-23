@@ -26,7 +26,7 @@ onMounted(async () => {
   <div v-else>
     <Navbar/>
   
-  <div id="home" class="area">
+  <div id="home" class="area min-h-screen">
     <Home />
   </div>
 
