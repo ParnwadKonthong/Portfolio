@@ -5,15 +5,17 @@ import About from './views/About.vue';
 import Projects from './views/Projects.vue';
 import Contact from './views/Contact.vue';
 
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, nextTick } from 'vue'
 
 const isLoading = ref(true)
 
 onMounted(async () => {
   // จำลองโหลดข้อมูล เช่น fetch หรือโหลดภาพ
-  await new Promise(resolve => setTimeout(resolve, 400)) // รอ 2 วินาที
-
-  isLoading.value = false
+  await new Promise(resolve => setTimeout(resolve, 400))
+  nextTick( () => {
+    isLoading.value = false
+  })
+  
 })
 
 </script>
@@ -26,7 +28,7 @@ onMounted(async () => {
   <div v-else>
     <Navbar/>
   
-  <div id="home" class="area min-h-screen">
+  <div id="home" class="area">
     <Home />
   </div>
 
