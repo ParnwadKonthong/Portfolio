@@ -21,7 +21,7 @@
             functionalities.
           </div>
         </div>
-        <div class="flex justify-center gap-2">
+        <div class="flex justify-center gap-4">
           <a
             href="https://github.com/ParnwadKonthong/ecommerce-react-client"
             target="_blank"
@@ -54,7 +54,7 @@
             administrators.
           </div>
         </div>
-        <div class="flex justify-center gap-2">
+        <div class="flex justify-center gap-4">
           <a
             href="https://github.com/ParnwadKonthong/kongsak-vue-frontend"
             target="_blank"
